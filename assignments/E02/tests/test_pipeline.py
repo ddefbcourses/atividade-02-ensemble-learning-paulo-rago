@@ -2,7 +2,7 @@ import importlib.util
 import sys
 import os
 
-NOTEBOOK_SCRIPT = "notebook.py"
+NOTEBOOK_SCRIPT = "assignments/E02/E02_Ensemble_Learning.ipynb"
 
 if not os.path.exists(NOTEBOOK_SCRIPT):
     raise FileNotFoundError(
